@@ -103,10 +103,6 @@ def main():
 
     last_id = df['id'][df.index[-1]]
     write_to_last_processed_id(last_id, engine)
-
-    # print(get_last_processed_id(connection))
-    # print(result_df, '\n', last_id)
-
     write_to_agg_data(result_df, engine)
 
 
