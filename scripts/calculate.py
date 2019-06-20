@@ -56,6 +56,7 @@ def get_last_processed_id(connection):
 
 def main():
     """
+    Задание:
     В таблице agg_data собираются статистические данные по каждому юзеру:
     agg_data (
        user_id unsigned int primary key,
